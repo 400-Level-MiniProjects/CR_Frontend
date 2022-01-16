@@ -3,7 +3,7 @@ import eApproveCourses from '../../images/emptyReg.png'
 
 function eapprovecourses() {
     return (
-        <div class="w-full h-screen ">
+        <div class="w-full h-screen">
             <div class="text-center w-full h-1/4 text-tprimary py-7 ">
                 <h2 class="font-bold text-4xl py-4 leading-20">Approve Course Registration</h2>
                 <p class="text-xl font-medium leading-20">Oops you dont have any student's form to approve</p>
