@@ -5,11 +5,18 @@ module.exports = {
     extend: {
       colors:{
         tprimary:'#2D3132',
-        bprimary:'#203B93'
+        bprimary:'#203B93',
+        blues : '#203B93'
       },
       width:{
         '3/7':'45%'
       },
+      height :{
+        'big' : '800px'
+      },
+      boxShadow:{
+        'shine' :'2px 2px 10px rgba(0, 0, 0, 0.219)'
+      }
     },
   },
   variants: {
