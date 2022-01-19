@@ -6,6 +6,7 @@ import StudentDetails from './pages/student_details';
 import WithCarryover from './pages/with_carryover';
 import NoCarryover from './pages/no_carryover';
 import EmptyApproveCourses from './pages/empty_approvecourses';
+import AdvisorDetails from './pages/AdvisorDetails';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
          <Route path='/with_carryover' exact element={<WithCarryover/>} />
          <Route path='/no_carryover' exact element={<NoCarryover/>} />
          <Route path='/empty_approve_courses' exact element={<EmptyApproveCourses/>} />
+         <Route path='/advisorDetails' exact element={<AdvisorDetails/>} />
     </Routes>
   );
 }
