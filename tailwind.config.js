@@ -9,7 +9,8 @@ module.exports = {
         blues : '#203B93'
       },
       width:{
-        '3/7':'45%'
+        '3/7':'45%',
+        '400' : '400px'
       },
       height :{
         'big' : '800px'

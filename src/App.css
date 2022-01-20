@@ -1,2 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#approve-main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+#approve-main h1, #approve-main h2{
+    text-transform: capitalize;
+}
+#approve-main h1{
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+}
+#approve-main h2{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+#approve-main .table table{
+    border-spacing: 10px ;
+    border-collapse: collapse;
+    width: 100%;
+}
+#approve-main .table table th, #approve-main .table table td {
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    width: 200px;
+}
+
+.head{
+    border: 0.5px solid #00000034;
+}
+tr:nth-child(even){
+    background-color: rgba(91, 126, 240, 0.3);
+}
+#approve-main .buts{
+    margin-top: 60px;
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;   
+    border: transparent;
+    background: #203B93;
+    box-shadow: 0px 4px 4px rgba(37, 209, 9, 0.25);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+#approve-main .buts:hover{
+    background-color: #132358;
+    cursor: pointer;
+}
+.check{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    border: none;
+    outline: none;
+    /* background-color: black; */
+}
+.check input{
+    width: 100%;
+    height: 100%;
+}
+/* end of approve courses .html */
 
 
+/* approved course.html */
+#approval{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+#approval h1{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 15px 0;
+}
+#approval h2{
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 50px;
+}
+#approval .table table{
+    border-spacing: 10px ;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+}
+#approval .table table th, #approval .table table td {
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    width: 200px;
+}
+#approval .table table td a{
+    color: black;
+}
