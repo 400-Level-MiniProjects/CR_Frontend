@@ -7,6 +7,8 @@ import WithCarryover from './pages/with_carryover';
 import NoCarryover from './pages/no_carryover';
 import EmptyApproveCourses from './pages/empty_approvecourses';
 import AdvisorDetails from './pages/AdvisorDetails';
+import ApproveCourseforreg from './pages/approveCourseforreg';
+import AppCourse from './pages/approveCourseRegistration'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
          <Route path='/no_carryover' exact element={<NoCarryover/>} />
          <Route path='/empty_approve_courses' exact element={<EmptyApproveCourses/>} />
          <Route path='/advisorDetails' exact element={<AdvisorDetails/>} />
+         <Route path='/approvecourseforreg' exact element={<ApproveCourseforreg/>} />
+         <Route path='/appCourse' exact element={<AppCourse/>} />
     </Routes>
   );
 }
