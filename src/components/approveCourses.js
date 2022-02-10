@@ -1,7 +1,9 @@
 import React from 'react'
 import '../App.css'
 
+
 const approveCourses = ({course}) => {
+    
     return (
         <tr>
             <td className=' h-10'>{course.id}</td>

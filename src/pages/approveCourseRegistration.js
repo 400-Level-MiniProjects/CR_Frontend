@@ -3,8 +3,14 @@ import React from 'react'
 import '../App.css'
 import approve from '../approve'
 import AppCourse from '../components/appCourse'
+import Eapprovecourses from './empty_approvecourses'
 
 const approveCourseRegistration = () => {
+    if (!approve || approve.length ===0) {
+        return (
+            <Eapprovecourses/>
+        )
+    }
     return (
         <>
             <section id="approval">

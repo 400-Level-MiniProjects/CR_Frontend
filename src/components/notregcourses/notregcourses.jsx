@@ -1,5 +1,6 @@
 import React from 'react'
 import notRegistered from '../../images/emptyReg.png'
+import { Link } from 'react-router-dom';
 
 function notregcourses() {
     return (
@@ -10,7 +11,11 @@ function notregcourses() {
             </div>
             <div class="h-3/4 flex flex-col items-center justify-center py-14 gap-6 ">
                 <img src={notRegistered} class="w-5/12 h-3/12" alt="reg"/>
-                <button class="bg-bprimary text-white px-2 py-4 w-6/12 font-semibold rounded-lg">Register Courses</button>
+                <button class="bg-bprimary text-white px-2 py-4 w-6/12 font-semibold rounded-lg">
+                    <Link to="/approvecourseforreg">
+                        Register Courses
+                    </Link>
+                </button>
             </div>
             
         </div>

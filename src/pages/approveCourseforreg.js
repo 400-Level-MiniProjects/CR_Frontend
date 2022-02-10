@@ -2,8 +2,14 @@ import React from 'react'
 import '../App.css'
 import courses from '../courses'
 import ApproveCourses from '../components/approveCourses'
+import Noregcourses from '../pages/no_regcourses'
 
 const approveCourseforreg = () => {
+    if (!courses || courses.length ===0) {
+        return (
+            <Noregcourses/>
+        )
+    }
     return (
         <>
             <section className=' min-h-screen flex flex-col items-center font-serif'>
