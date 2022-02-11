@@ -1,5 +1,6 @@
 import React from 'react'
 import eApproveCourses from '../../images/emptyReg.png'
+import { Link } from 'react-router-dom'
 
 function eapprovecourses() {
     return (
@@ -10,7 +11,11 @@ function eapprovecourses() {
             </div>
             <div class="h-3/4 flex flex-col items-center justify-center py-14 gap-6 ">
                 <img src={eApproveCourses} class="w-5/12 h-3/12" alt="reg"/>
-                <button class="bg-bprimary text-white px-2 py-4 w-6/12 font-semibold rounded-lg">Refresh</button>
+                <button class="bg-bprimary text-white px-2 py-4 w-6/12 font-semibold rounded-lg">
+                    <Link to="/appCourse">
+                        Refresh
+                    </Link>
+                </button>
             </div>
             
         </div>
